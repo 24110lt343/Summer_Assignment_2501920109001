@@ -1,8 +1,0 @@
-1. SEARCH ENGINE
-2. SKRIBBLE CLOZNE
-3. n8n
-4. Portfolio
-5. git
-6. Build your own db redis
-7. Algorithm visualizer
-8. Real time editor
