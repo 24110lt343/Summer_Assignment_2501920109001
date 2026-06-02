@@ -13,6 +13,9 @@ class BruteForceSolution {
     }
 }
 
+// Time Complexity O(n^2)
+// Space complexity O(1)
+
 class OptimalSolution {
     public int maxSubArray(int[] nums) {
         int maxi = Integer.MIN_VALUE;
@@ -32,6 +35,9 @@ class OptimalSolution {
         return maxi;
     }
 }
+
+// Time Complexity O(n)
+// Space complexity O(1)
 
 
 

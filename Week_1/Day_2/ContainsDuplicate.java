@@ -9,3 +9,6 @@ class OptimalSolution {
         return false;
     }
 }
+
+// Time Complexity O(n)
+// Space complexity O(n)
