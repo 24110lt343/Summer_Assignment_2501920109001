@@ -1,3 +1,18 @@
+class BruteForceSolution {
+    public int maxSubArray(int[] nums) {
+        int maxi = Integer.MIN_VALUE;
+        int temp = 0;
+        for(int i=0;i<nums.length;i++){
+            for(int j=i;j<nums.length;j++){
+                temp+=nums[j];
+                maxi = Math.max(maxi,temp);
+            }
+            temp = 0;
+        }
+        return maxi;
+    }
+}
+
 class OptimalSolution {
     public int maxSubArray(int[] nums) {
         int maxi = Integer.MIN_VALUE;
@@ -21,3 +36,4 @@ class OptimalSolution {
 
 
 // Optimal Soultion using kadane's Algorithm
+
